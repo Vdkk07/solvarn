@@ -567,6 +567,10 @@ const MainApp = () => {
                           <span className="text-green-400 text-xs">(You)</span>
                         )}
                       </p>
+                      <p className="text-sm text-gray-300 mt-1">
+                        Last Deposit:{" "}
+                        {formatSOL(pool.account.lastDepositAmount)} SOL
+                      </p>
                     </div>
 
                     {/* Actions */}
